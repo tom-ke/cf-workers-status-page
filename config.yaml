@@ -37,3 +37,23 @@ monitors:
     url: 'https://blog.cloudflare.com/'
     method: GET
     expectStatus: 200
+    
+  - id: web-tomke-pve
+    name: PVE Server
+    url: 'https://pve.tomke.us:8888/'
+    method: GET
+    expectStatus: 200
+
+  - id: web-tomke-dsm
+    name: Synology DSM Server
+    url: 'https://tomke.synology.me:5001/'
+    method: GET
+    expectStatus: 200
+
+  - id: web-tomke-navidrome
+    name: Music Server
+    url: 'https://navidrome.tomke.us:8888/'
+    method: GET
+    expectStatus: 200
+
+  
