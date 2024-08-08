@@ -1,5 +1,5 @@
 settings:
-  title: 'Status Page'
+  title: 'Tomke Status Page'
   url: 'https://status-page.eidam.dev' # used for Slack messages
   logo: logo-192x192.png # image in ./public/ folder
   daysInHistogram: 90 # number of days you want to display in histogram
@@ -40,7 +40,7 @@ monitors:
     
   - id: web-tomke-pve
     name: PVE Server
-    url: 'https://pve.tomke.us:8888/'
+    url: 'https://pve.tomke.us:8888/#v1:0:18:4:::::::'
     method: GET
     expectStatus: 200
 
