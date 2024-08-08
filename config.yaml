@@ -56,4 +56,9 @@ monitors:
     method: GET
     expectStatus: 200
 
+  - id: web-test
+    name: Baidu
+    url: 'https://www.baidu.com/'
+    method: GET
+    expectStatus: 200
   
