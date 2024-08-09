@@ -55,6 +55,7 @@ monitors:
     url: 'https://navidrome.tomke.us:8888'
     method: GET
     expectStatus: 200
+    followRedirect: true
 
   - id: web-test
     name: Baidu
